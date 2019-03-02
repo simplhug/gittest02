@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Enable AWS Config
+
+Parameters:
+  AllSupported:
+    Type: String
+    Default: True
+    Description: Indicates whether to record all supported resource types.
+    AllowedValues:
+      - True
+      - False
