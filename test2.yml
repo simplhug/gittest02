@@ -1,0 +1,5 @@
+Resources:
+
+  ConfigBucket:
+    DeletionPolicy: Retain
+    Type: AWS::S3::Bucket
